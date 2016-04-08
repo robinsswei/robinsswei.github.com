@@ -32,12 +32,17 @@ body {
 }
 
 #info {
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0, 0);
     position: fixed;
-    bottom: 0;
-    left: 0px;
-    width: 250px;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 300px;
+    margin-top: -150px;
+    margin-left: -200px;
     padding: 10px 20px 20px;
+    font-size: 2em;
+    text-align: center;
     z-index: 100;
     -webkit-transform-origin: bottom center;
        -moz-transform-origin: bottom center;
@@ -52,7 +57,9 @@ body {
          -o-transition:      -o-transform .5s ease-in-out;
             transition:         transform .5s ease-in-out;
 }
-
+#info h2{
+  padding-top: 10px;
+}
 #info.closed {
     -webkit-transform: rotate(180deg);
        -moz-transform: rotate(180deg);

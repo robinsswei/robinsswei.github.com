@@ -44,12 +44,6 @@
 }());
 
 // stats
-var stats = new Stats();
-stats.setMode(0);
-stats.domElement.style.position = 'absolute';
-stats.domElement.style.left = '0px';
-stats.domElement.style.top = '0px';
-document.body.appendChild( stats.domElement );
 
 
 var M = {
@@ -139,7 +133,7 @@ var M = {
     M.animation = requestAnimationFrame( function(){ M.loop(); } );
     M.draw();
 
-    stats.update();
+    // stats.update();
   },
 
   // this used to be used straight after createCode, without using createCanvii - it allowed
