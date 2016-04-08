@@ -1,16 +1,14 @@
 @import url("http://fonts.googleapis.com/css?family=Carrois+Gothic");
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed");
 
 @font-face {
-  font-family: 'matrix-code';
-  src: url('http://neilcarpenter.com/demos/canvas/matrix/font/matrix-code.eot?#iefix') format('embedded-opentype'), 
-       url('http://neilcarpenter.com/demos/canvas/matrix/font/matrix-code.woff') format('woff'), 
-       url('http://neilcarpenter.com/demos/canvas/matrix/font/matrix-code.ttf')  format('truetype'),
-       url('http://neilcarpenter.com/demos/canvas/matrix/font/matrix-code.svg#svgFontName') format('svg');
+  font-family: 'Roboto', sans-serif;
+  src: url('assets/fonts/Roboto-Regular.ttf')  format('truetype');
 }
 
 html, body {
     -webkit-font-smoothing: antialiased;
-    font: normal 12px/14px "Carrois Gothic", sans-serif;
+    font: normal 12px/14px "Roboto", sans-serif;
     width: 100%;
     height: 100%;
     margin: 0;

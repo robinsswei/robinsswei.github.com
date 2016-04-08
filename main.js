@@ -405,28 +405,28 @@ var M = {
 
 };
 
-function eventListenerz() {
-  var controlToggles = document.getElementsByClassName('toggle-info');
-  var controls = document.getElementById('info');
-  var snapshotBtn = document.getElementById('snapshot');
+// function eventListenerz() {
+//   var controlToggles = document.getElementsByClassName('toggle-info');
+//   var controls = document.getElementById('info');
+//   var snapshotBtn = document.getElementById('snapshot');
 
-  function toggleControls(e) {
-    e.preventDefault();
-    controls.className = controls.className === 'closed' ? '' : 'closed';
-  }
+//   function toggleControls(e) {
+//     e.preventDefault();
+//     controls.className = controls.className === 'closed' ? '' : 'closed';
+//   }
 
-  for (var j = 0; j < 2; j++) {
-    controlToggles[j].addEventListener('click', toggleControls, false);
-  }
+//   for (var j = 0; j < 2; j++) {
+//     controlToggles[j].addEventListener('click', toggleControls, false);
+//   }
 
-  snapshotBtn.addEventListener('click', M.snapshot, false);
+//   snapshotBtn.addEventListener('click', M.snapshot, false);
 
-}
+// }
 
 window.onload = function() {
 
   M.init();
 
-  eventListenerz();
+  //eventListenerz();
 
 };
